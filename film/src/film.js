@@ -9,6 +9,7 @@ const script = await (await fetch('./script.json')).json();
 let lines = null;
 try { lines = await (await fetch('./lines.json')).json(); } catch (e) { lines = null; }
 const DE = await (await fetch('./de.json')).json();
+const LANG = new URLSearchParams(location.search).get('lang') || 'en';
 const SC = Object.fromEntries(script.scenes.map((s) => [s.id, s]));
 const abs = (id, u) => SC[id].start + u;
 const flashes = script.flashes.map(([id, u]) => abs(id, u));
@@ -297,8 +298,23 @@ function deSub(t) {
   for (const L of lines) if (t >= L.t && t <= L.t + L.d + 0.25) return DE[L.text] || '';
   return '';
 }
+function chunkDE(text) {
+  const w = text.split(' '), out = []; let cur = [];
+  for (const x of w) { cur.push(x); if (cur.length >= 4 || (/[.,!?]$/.test(x) && cur.length >= 2)) { out.push(cur.join(' ')); cur = []; } }
+  if (cur.length) { if (out.length && cur.length === 1) out[out.length - 1] += ' ' + cur[0]; else out.push(cur.join(' ')); }
+  return out;
+}
 function captions(t) {
   if (!lines) return '';
+  if (LANG === 'de') {
+    for (const L of lines) {
+      if (t < L.t || t > L.t + L.d + 0.25) continue;
+      const ch = chunkDE(DE[L.text] || L.text), tot = ch.reduce((a, c) => a + c.length + 3, 0);
+      let tt = L.t;
+      for (let i = 0; i < ch.length; i++) { const d = L.d * 0.97 * (ch[i].length + 3) / tot; if (t < tt + d || i === ch.length - 1) return ch[i]; tt += d; }
+    }
+    return '';
+  }
   for (const L of lines) {
     if (t < L.t || t > L.t + L.d + 0.25) continue;
     for (const c of L.chunks) if (t >= c.t && t < c.t + c.d + (c === L.chunks[L.chunks.length - 1] ? 0.25 : 0)) return c.text;
@@ -341,7 +357,7 @@ export function renderAt(t) {
   elTitle.textContent = sc.title || ''; elSub.textContent = sc.sub || '';
   elCap.textContent = captions(t);
   elCap.style.opacity = elCap.textContent ? 1 : 0;
-  const elDe = document.getElementById('de'); elDe.textContent = deSub(t); elDe.style.opacity = elDe.textContent ? 1 : 0;
+  const elDe = document.getElementById('de'); elDe.textContent = LANG === 'de' ? '' : deSub(t); elDe.style.opacity = elDe.textContent ? 1 : 0;
   // big titles
   let big = '';
   if (sc.id === 'intro' && u > 1 && u < 13) big = '<div class="b1">30 DAYS</div><div class="b2">FLOOR 25</div>';
