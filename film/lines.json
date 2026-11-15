@@ -1,0 +1,1274 @@
+[
+{
+"t": 1.5,
+"d": 2.368,
+"v": "nar",
+"text": "My name is Daniel. I live on the twenty-fifth floor.",
+"chunks": [
+{
+"t": 1.5,
+"d": 0.818,
+"text": "My name is Daniel."
+},
+{
+"t": 2.318,
+"d": 0.623,
+"text": "I live on the"
+},
+{
+"t": 2.941,
+"d": 0.857,
+"text": "twenty-fifth floor."
+}
+]
+},
+{
+"t": 6.5,
+"d": 3.17,
+"v": "nar",
+"text": "This is the story of the thirty days I couldn't leave my apartment.",
+"chunks": [
+{
+"t": 6.5,
+"d": 0.831,
+"text": "This is the story"
+},
+{
+"t": 7.331,
+"d": 0.872,
+"text": "of the thirty days"
+},
+{
+"t": 8.203,
+"d": 1.371,
+"text": "I couldn't leave my apartment."
+}
+]
+},
+{
+"t": 16.0,
+"d": 1.887,
+"v": "nar",
+"text": "It started like any other Tuesday night.",
+"chunks": [
+{
+"t": 16.0,
+"d": 0.895,
+"text": "It started like any"
+},
+{
+"t": 16.895,
+"d": 0.935,
+"text": "other Tuesday night."
+}
+]
+},
+{
+"t": 19.5,
+"d": 2.681,
+"v": "nar",
+"text": "Pizza, a quiz show, and nothing to worry about.",
+"chunks": [
+{
+"t": 19.5,
+"d": 1.1,
+"text": "Pizza, a quiz show,"
+},
+{
+"t": 20.6,
+"d": 1.501,
+"text": "and nothing to worry about."
+}
+]
+},
+{
+"t": 25.0,
+"d": 3.004,
+"v": "news",
+"text": "We interrupt this program for breaking news.",
+"chunks": [
+{
+"t": 25.0,
+"d": 1.665,
+"text": "We interrupt this program"
+},
+{
+"t": 26.665,
+"d": 1.249,
+"text": "for breaking news."
+}
+]
+},
+{
+"t": 28.8,
+"d": 4.747,
+"v": "news",
+"text": "Violent attacks are being reported across the entire city. The cause is still unknown.",
+"chunks": [
+{
+"t": 28.8,
+"d": 1.357,
+"text": "Violent attacks are being"
+},
+{
+"t": 30.157,
+"d": 1.406,
+"text": "reported across the entire"
+},
+{
+"t": 31.563,
+"d": 1.018,
+"text": "city. The cause is"
+},
+{
+"t": 32.581,
+"d": 0.824,
+"text": "still unknown."
+}
+]
+},
+{
+"t": 35.5,
+"d": 5.599,
+"v": "news",
+"text": "Authorities urge everyone to stay inside, lock their doors, and avoid all contact with the infected.",
+"chunks": [
+{
+"t": 35.5,
+"d": 1.517,
+"text": "Authorities urge everyone to"
+},
+{
+"t": 37.017,
+"d": 0.734,
+"text": "stay inside,"
+},
+{
+"t": 37.751,
+"d": 0.979,
+"text": "lock their doors,"
+},
+{
+"t": 38.729,
+"d": 1.174,
+"text": "and avoid all contact"
+},
+{
+"t": 39.903,
+"d": 1.027,
+"text": "with the infected."
+}
+]
+},
+{
+"t": 43.0,
+"d": 1.95,
+"v": "nar",
+"text": "At first, I thought it was some kind of joke.",
+"chunks": [
+{
+"t": 43.0,
+"d": 0.436,
+"text": "At first,"
+},
+{
+"t": 43.436,
+"d": 0.691,
+"text": "I thought it was"
+},
+{
+"t": 44.128,
+"d": 0.764,
+"text": "some kind of joke."
+}
+]
+},
+{
+"t": 47.0,
+"d": 1.195,
+"v": "nar",
+"text": "Then I heard the sirens.",
+"chunks": [
+{
+"t": 47.0,
+"d": 1.159,
+"text": "Then I heard the sirens."
+}
+]
+},
+{
+"t": 50.5,
+"d": 2.26,
+"v": "nar",
+"text": "So I went to the window, and looked down.",
+"chunks": [
+{
+"t": 50.5,
+"d": 0.685,
+"text": "So I went to"
+},
+{
+"t": 51.185,
+"d": 0.639,
+"text": "the window,"
+},
+{
+"t": 51.824,
+"d": 0.868,
+"text": "and looked down."
+}
+]
+},
+{
+"t": 64.0,
+"d": 2.167,
+"v": "man",
+"text": "Oh my God... what is happening?",
+"chunks": [
+{
+"t": 64.0,
+"d": 0.876,
+"text": "Oh my God..."
+},
+{
+"t": 64.876,
+"d": 1.226,
+"text": "what is happening?"
+}
+]
+},
+{
+"t": 71.0,
+"d": 1.927,
+"v": "nar",
+"text": "People were running. Cars were crashing.",
+"chunks": [
+{
+"t": 71.0,
+"d": 0.955,
+"text": "People were running."
+},
+{
+"t": 71.955,
+"d": 0.914,
+"text": "Cars were crashing."
+}
+]
+},
+{
+"t": 76.0,
+"d": 1.37,
+"v": "nar",
+"text": "And something was chasing them.",
+"chunks": [
+{
+"t": 76.0,
+"d": 1.329,
+"text": "And something was chasing them."
+}
+]
+},
+{
+"t": 82.0,
+"d": 2.285,
+"v": "nar",
+"text": "By day three, the streets had gone quiet.",
+"chunks": [
+{
+"t": 82.0,
+"d": 0.771,
+"text": "By day three,"
+},
+{
+"t": 82.771,
+"d": 1.445,
+"text": "the streets had gone quiet."
+}
+]
+},
+{
+"t": 86.5,
+"d": 2.38,
+"v": "nar",
+"text": "I opened the fridge, and counted everything I had.",
+"chunks": [
+{
+"t": 86.5,
+"d": 0.965,
+"text": "I opened the fridge,"
+},
+{
+"t": 87.465,
+"d": 1.343,
+"text": "and counted everything I had."
+}
+]
+},
+{
+"t": 92.0,
+"d": 4.589,
+"v": "man",
+"text": "One, two, three, four, five, six bottles.",
+"chunks": [
+{
+"t": 92.0,
+"d": 1.113,
+"text": "One, two,"
+},
+{
+"t": 93.113,
+"d": 1.391,
+"text": "three, four,"
+},
+{
+"t": 94.504,
+"d": 1.947,
+"text": "five, six bottles."
+}
+]
+},
+{
+"t": 97.5,
+"d": 1.895,
+"v": "man",
+"text": "Four cans of beans.",
+"chunks": [
+{
+"t": 97.5,
+"d": 1.838,
+"text": "Four cans of beans."
+}
+]
+},
+{
+"t": 101.0,
+"d": 1.521,
+"v": "nar",
+"text": "That was it. That was everything.",
+"chunks": [
+{
+"t": 101.0,
+"d": 0.582,
+"text": "That was it."
+},
+{
+"t": 101.582,
+"d": 0.893,
+"text": "That was everything."
+}
+]
+},
+{
+"t": 106.0,
+"d": 1.614,
+"v": "nar",
+"text": "I locked the door. Twice.",
+"chunks": [
+{
+"t": 106.0,
+"d": 1.565,
+"text": "I locked the door. Twice."
+}
+]
+},
+{
+"t": 112.0,
+"d": 1.701,
+"v": "nar",
+"text": "Then I pushed the dresser in front of it.",
+"chunks": [
+{
+"t": 112.0,
+"d": 0.718,
+"text": "Then I pushed the"
+},
+{
+"t": 112.718,
+"d": 0.933,
+"text": "dresser in front of it."
+}
+]
+},
+{
+"t": 122.5,
+"d": 2.485,
+"v": "nar",
+"text": "If something wanted in, it would have to work for it.",
+"chunks": [
+{
+"t": 122.5,
+"d": 1.044,
+"text": "If something wanted in,"
+},
+{
+"t": 123.544,
+"d": 0.763,
+"text": "it would have to"
+},
+{
+"t": 124.307,
+"d": 0.602,
+"text": "work for it."
+}
+]
+},
+{
+"t": 132.0,
+"d": 3.206,
+"v": "nar",
+"text": "For a week, the lights stayed on. The TV was just static.",
+"chunks": [
+{
+"t": 132.0,
+"d": 0.68,
+"text": "For a week,"
+},
+{
+"t": 132.68,
+"d": 1.166,
+"text": "the lights stayed on."
+},
+{
+"t": 133.847,
+"d": 1.264,
+"text": "The TV was just static."
+}
+]
+},
+{
+"t": 138.0,
+"d": 2.392,
+"v": "nar",
+"text": "I told myself the power would never go out.",
+"chunks": [
+{
+"t": 138.0,
+"d": 0.967,
+"text": "I told myself the"
+},
+{
+"t": 138.967,
+"d": 1.353,
+"text": "power would never go out."
+}
+]
+},
+{
+"t": 145.5,
+"d": 1.556,
+"v": "nar",
+"text": "On day seven, it did.",
+"chunks": [
+{
+"t": 145.5,
+"d": 0.929,
+"text": "On day seven,"
+},
+{
+"t": 146.429,
+"d": 0.58,
+"text": "it did."
+}
+]
+},
+{
+"t": 151.0,
+"d": 2.135,
+"v": "nar",
+"text": "Block by block, the whole city went dark.",
+"chunks": [
+{
+"t": 151.0,
+"d": 0.81,
+"text": "Block by block,"
+},
+{
+"t": 151.81,
+"d": 1.261,
+"text": "the whole city went dark."
+}
+]
+},
+{
+"t": 158.0,
+"d": 2.38,
+"v": "nar",
+"text": "I found my flashlight, and sat on the floor.",
+"chunks": [
+{
+"t": 158.0,
+"d": 1.178,
+"text": "I found my flashlight,"
+},
+{
+"t": 159.178,
+"d": 1.131,
+"text": "and sat on the floor."
+}
+]
+},
+{
+"t": 165.0,
+"d": 1.033,
+"v": "nar",
+"text": "And that's when I heard them.",
+"chunks": [
+{
+"t": 165.0,
+"d": 0.59,
+"text": "And that's when I"
+},
+{
+"t": 165.59,
+"d": 0.413,
+"text": "heard them."
+}
+]
+},
+{
+"t": 170.0,
+"d": 2.403,
+"v": "nar",
+"text": "In the stairwell. Coming up. Floor by floor.",
+"chunks": [
+{
+"t": 170.0,
+"d": 0.914,
+"text": "In the stairwell."
+},
+{
+"t": 170.914,
+"d": 0.594,
+"text": "Coming up."
+},
+{
+"t": 171.508,
+"d": 0.823,
+"text": "Floor by floor."
+}
+]
+},
+{
+"t": 182.0,
+"d": 2.066,
+"v": "nar",
+"text": "On day twelve, they found my floor.",
+"chunks": [
+{
+"t": 182.0,
+"d": 0.852,
+"text": "On day twelve,"
+},
+{
+"t": 182.852,
+"d": 1.152,
+"text": "they found my floor."
+}
+]
+},
+{
+"t": 196.0,
+"d": 2.599,
+"v": "nar",
+"text": "Slow footsteps. Right outside my door.",
+"chunks": [
+{
+"t": 196.0,
+"d": 1.055,
+"text": "Slow footsteps."
+},
+{
+"t": 197.055,
+"d": 1.466,
+"text": "Right outside my door."
+}
+]
+},
+{
+"t": 204.0,
+"d": 1.347,
+"v": "nar",
+"text": "Then the scratching started.",
+"chunks": [
+{
+"t": 204.0,
+"d": 1.306,
+"text": "Then the scratching started."
+}
+]
+},
+{
+"t": 217.0,
+"d": 1.231,
+"v": "nar",
+"text": "I hid behind the sofa.",
+"chunks": [
+{
+"t": 217.0,
+"d": 1.194,
+"text": "I hid behind the sofa."
+}
+]
+},
+{
+"t": 221.0,
+"d": 1.592,
+"v": "nar",
+"text": "I didn't move. I didn't breathe.",
+"chunks": [
+{
+"t": 221.0,
+"d": 0.709,
+"text": "I didn't move."
+},
+{
+"t": 221.709,
+"d": 0.835,
+"text": "I didn't breathe."
+}
+]
+},
+{
+"t": 232.0,
+"d": 2.807,
+"v": "nar",
+"text": "Day seventeen. The rain didn't stop for three days.",
+"chunks": [
+{
+"t": 232.0,
+"d": 0.798,
+"text": "Day seventeen."
+},
+{
+"t": 232.798,
+"d": 1.08,
+"text": "The rain didn't stop"
+},
+{
+"t": 233.878,
+"d": 0.845,
+"text": "for three days."
+}
+]
+},
+{
+"t": 239.0,
+"d": 2.077,
+"v": "nar",
+"text": "One bottle of water left. Half full.",
+"chunks": [
+{
+"t": 239.0,
+"d": 1.081,
+"text": "One bottle of water"
+},
+{
+"t": 240.081,
+"d": 0.934,
+"text": "left. Half full."
+}
+]
+},
+{
+"t": 246.0,
+"d": 3.053,
+"v": "nar",
+"text": "I drank one small sip every morning, and one every night.",
+"chunks": [
+{
+"t": 246.0,
+"d": 0.926,
+"text": "I drank one small"
+},
+{
+"t": 246.926,
+"d": 0.972,
+"text": "sip every morning,"
+},
+{
+"t": 247.897,
+"d": 1.064,
+"text": "and one every night."
+}
+]
+},
+{
+"t": 256.0,
+"d": 2.67,
+"v": "nar",
+"text": "The tap only gave me a few drops, and then nothing.",
+"chunks": [
+{
+"t": 256.0,
+"d": 0.893,
+"text": "The tap only gave"
+},
+{
+"t": 256.893,
+"d": 0.804,
+"text": "me a few drops,"
+},
+{
+"t": 257.697,
+"d": 0.893,
+"text": "and then nothing."
+}
+]
+},
+{
+"t": 265.0,
+"d": 2.775,
+"v": "nar",
+"text": "I started to wonder if anyone else was still alive out there.",
+"chunks": [
+{
+"t": 265.0,
+"d": 0.871,
+"text": "I started to wonder"
+},
+{
+"t": 265.871,
+"d": 0.831,
+"text": "if anyone else was"
+},
+{
+"t": 266.702,
+"d": 0.99,
+"text": "still alive out there."
+}
+]
+},
+{
+"t": 273.0,
+"d": 1.217,
+"v": "nar",
+"text": "Or if I was the last one.",
+"chunks": [
+{
+"t": 273.0,
+"d": 0.551,
+"text": "Or if I was"
+},
+{
+"t": 273.551,
+"d": 0.63,
+"text": "the last one."
+}
+]
+},
+{
+"t": 282.0,
+"d": 2.088,
+"v": "nar",
+"text": "On day twenty-three, I got my answer.",
+"chunks": [
+{
+"t": 282.0,
+"d": 1.109,
+"text": "On day twenty-three,"
+},
+{
+"t": 283.109,
+"d": 0.916,
+"text": "I got my answer."
+}
+]
+},
+{
+"t": 288.0,
+"d": 3.111,
+"v": "nar",
+"text": "Across the street, someone stepped out onto a balcony.",
+"chunks": [
+{
+"t": 288.0,
+"d": 1.039,
+"text": "Across the street,"
+},
+{
+"t": 289.039,
+"d": 1.336,
+"text": "someone stepped out onto"
+},
+{
+"t": 290.375,
+"d": 0.643,
+"text": "a balcony."
+}
+]
+},
+{
+"t": 294.5,
+"d": 1.869,
+"v": "nar",
+"text": "Another survivor. A real person.",
+"chunks": [
+{
+"t": 294.5,
+"d": 0.98,
+"text": "Another survivor."
+},
+{
+"t": 295.48,
+"d": 0.833,
+"text": "A real person."
+}
+]
+},
+{
+"t": 300.5,
+"d": 1.54,
+"v": "man",
+"text": "Hey! Hey! Over here!",
+"chunks": [
+{
+"t": 300.5,
+"d": 0.717,
+"text": "Hey! Hey!"
+},
+{
+"t": 301.217,
+"d": 0.777,
+"text": "Over here!"
+}
+]
+},
+{
+"t": 307.0,
+"d": 2.543,
+"v": "nar",
+"text": "We couldn't hear each other. So we used our hands.",
+"chunks": [
+{
+"t": 307.0,
+"d": 1.038,
+"text": "We couldn't hear each"
+},
+{
+"t": 308.038,
+"d": 0.865,
+"text": "other. So we used"
+},
+{
+"t": 308.904,
+"d": 0.562,
+"text": "our hands."
+}
+]
+},
+{
+"t": 314.0,
+"d": 3.469,
+"v": "nar",
+"text": "She pointed down. She held up her fingers. Two weeks, she meant.",
+"chunks": [
+{
+"t": 314.0,
+"d": 0.922,
+"text": "She pointed down."
+},
+{
+"t": 314.922,
+"d": 0.83,
+"text": "She held up her"
+},
+{
+"t": 315.751,
+"d": 1.014,
+"text": "fingers. Two weeks,"
+},
+{
+"t": 316.765,
+"d": 0.599,
+"text": "she meant."
+}
+]
+},
+{
+"t": 322.5,
+"d": 2.016,
+"v": "man",
+"text": "Behind you! Get inside! Run!",
+"chunks": [
+{
+"t": 322.5,
+"d": 0.83,
+"text": "Behind you!"
+},
+{
+"t": 323.33,
+"d": 1.126,
+"text": "Get inside! Run!"
+}
+]
+},
+{
+"t": 337.0,
+"d": 1.556,
+"v": "nar",
+"text": "I never saw her again.",
+"chunks": [
+{
+"t": 337.0,
+"d": 1.509,
+"text": "I never saw her again."
+}
+]
+},
+{
+"t": 347.0,
+"d": 2.445,
+"v": "nar",
+"text": "For days, I didn't want to look outside anymore.",
+"chunks": [
+{
+"t": 347.0,
+"d": 0.518,
+"text": "For days,"
+},
+{
+"t": 347.518,
+"d": 0.819,
+"text": "I didn't want to"
+},
+{
+"t": 348.337,
+"d": 1.035,
+"text": "look outside anymore."
+}
+]
+},
+{
+"t": 353.0,
+"d": 2.877,
+"v": "nar",
+"text": "Then, on day twenty-seven, the old radio crackled.",
+"chunks": [
+{
+"t": 353.0,
+"d": 1.471,
+"text": "Then, on day twenty-seven,"
+},
+{
+"t": 354.471,
+"d": 1.319,
+"text": "the old radio crackled."
+}
+]
+},
+{
+"t": 360.0,
+"d": 3.361,
+"v": "radio",
+"text": "To any survivors in the city. This is the emergency rescue service.",
+"chunks": [
+{
+"t": 360.0,
+"d": 0.944,
+"text": "To any survivors in"
+},
+{
+"t": 360.944,
+"d": 0.515,
+"text": "the city."
+},
+{
+"t": 361.458,
+"d": 1.029,
+"text": "This is the emergency"
+},
+{
+"t": 362.488,
+"d": 0.772,
+"text": "rescue service."
+}
+]
+},
+{
+"t": 366.5,
+"d": 4.85,
+"v": "radio",
+"text": "Evacuation helicopters will search the rooftops and the high-rise windows on day thirty.",
+"chunks": [
+{
+"t": 366.5,
+"d": 1.832,
+"text": "Evacuation helicopters will search"
+},
+{
+"t": 368.332,
+"d": 1.139,
+"text": "the rooftops and the"
+},
+{
+"t": 369.471,
+"d": 1.733,
+"text": "high-rise windows on day thirty."
+}
+]
+},
+{
+"t": 374.0,
+"d": 4.032,
+"v": "radio",
+"text": "If you can hear this, signal us with a light. I repeat. Signal us with a light.",
+"chunks": [
+{
+"t": 374.0,
+"d": 0.782,
+"text": "If you can hear"
+},
+{
+"t": 374.782,
+"d": 1.0,
+"text": "this, signal us with"
+},
+{
+"t": 375.782,
+"d": 0.478,
+"text": "a light."
+},
+{
+"t": 376.26,
+"d": 0.521,
+"text": "I repeat."
+},
+{
+"t": 376.781,
+"d": 1.13,
+"text": "Signal us with a light."
+}
+]
+},
+{
+"t": 383.0,
+"d": 2.464,
+"v": "man",
+"text": "Day thirty. Three more days.",
+"chunks": [
+{
+"t": 383.0,
+"d": 1.014,
+"text": "Day thirty."
+},
+{
+"t": 384.014,
+"d": 1.376,
+"text": "Three more days."
+}
+]
+},
+{
+"t": 388.5,
+"d": 1.988,
+"v": "nar",
+"text": "For the first time in weeks, I had hope.",
+"chunks": [
+{
+"t": 388.5,
+"d": 0.862,
+"text": "For the first time"
+},
+{
+"t": 389.362,
+"d": 0.492,
+"text": "in weeks,"
+},
+{
+"t": 389.854,
+"d": 0.574,
+"text": "I had hope."
+}
+]
+},
+{
+"t": 397.0,
+"d": 2.353,
+"v": "nar",
+"text": "Day thirty. I barely had the strength to get up.",
+"chunks": [
+{
+"t": 397.0,
+"d": 0.581,
+"text": "Day thirty."
+},
+{
+"t": 397.581,
+"d": 0.789,
+"text": "I barely had the"
+},
+{
+"t": 398.37,
+"d": 0.913,
+"text": "strength to get up."
+}
+]
+},
+{
+"t": 403.5,
+"d": 2.04,
+"v": "nar",
+"text": "The apartment was a mess. So was I.",
+"chunks": [
+{
+"t": 403.5,
+"d": 1.088,
+"text": "The apartment was a"
+},
+{
+"t": 404.588,
+"d": 0.89,
+"text": "mess. So was I."
+}
+]
+},
+{
+"t": 409.0,
+"d": 1.786,
+"v": "nar",
+"text": "And then, very far away, I heard it.",
+"chunks": [
+{
+"t": 409.0,
+"d": 0.483,
+"text": "And then,"
+},
+{
+"t": 409.483,
+"d": 0.685,
+"text": "very far away,"
+},
+{
+"t": 410.168,
+"d": 0.564,
+"text": "I heard it."
+}
+]
+},
+{
+"t": 416.0,
+"d": 1.424,
+"v": "man",
+"text": "A helicopter!",
+"chunks": [
+{
+"t": 416.0,
+"d": 1.382,
+"text": "A helicopter!"
+}
+]
+},
+{
+"t": 423.0,
+"d": 2.204,
+"v": "man",
+"text": "Hey! Here! I'm here! Over here!",
+"chunks": [
+{
+"t": 423.0,
+"d": 0.731,
+"text": "Hey! Here!"
+},
+{
+"t": 423.731,
+"d": 0.675,
+"text": "I'm here!"
+},
+{
+"t": 424.406,
+"d": 0.731,
+"text": "Over here!"
+}
+]
+},
+{
+"t": 429.0,
+"d": 2.163,
+"v": "man",
+"text": "Please! Please, see me!",
+"chunks": [
+{
+"t": 429.0,
+"d": 1.349,
+"text": "Please! Please,"
+},
+{
+"t": 430.349,
+"d": 0.749,
+"text": "see me!"
+}
+]
+},
+{
+"t": 437.0,
+"d": 2.564,
+"v": "nar",
+"text": "I kept flashing the light until my arm hurt.",
+"chunks": [
+{
+"t": 437.0,
+"d": 1.116,
+"text": "I kept flashing the"
+},
+{
+"t": 438.116,
+"d": 1.37,
+"text": "light until my arm hurt."
+}
+]
+},
+{
+"t": 444.0,
+"d": 2.775,
+"v": "nar",
+"text": "On, off. On, off. Over and over.",
+"chunks": [
+{
+"t": 444.0,
+"d": 0.759,
+"text": "On, off."
+},
+{
+"t": 444.759,
+"d": 0.759,
+"text": "On, off."
+},
+{
+"t": 445.518,
+"d": 1.173,
+"text": "Over and over."
+}
+]
+},
+{
+"t": 452.0,
+"d": 2.519,
+"v": "nar",
+"text": "And then, slowly, the helicopter turned.",
+"chunks": [
+{
+"t": 452.0,
+"d": 0.652,
+"text": "And then,"
+},
+{
+"t": 452.652,
+"d": 1.792,
+"text": "slowly, the helicopter turned."
+}
+]
+},
+{
+"t": 458.0,
+"d": 1.065,
+"v": "nar",
+"text": "Toward my building.",
+"chunks": [
+{
+"t": 458.0,
+"d": 1.033,
+"text": "Toward my building."
+}
+]
+}
+]

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>30 Days – Floor 25</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+@font-face { font-family: Rubik; font-weight: 900; src: url(fonts/rubik-latin-900-normal.woff2) format('woff2'); }
+@font-face { font-family: Rubik; font-weight: 700; src: url(fonts/rubik-latin-700-normal.woff2) format('woff2'); }
+html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+#frame { position: absolute; left: 0; top: 0; transform-origin: 0 0; overflow: hidden; font-family: Rubik, sans-serif; }
+#stage canvas { display: block; }
+.ink { -webkit-text-stroke: calc(var(--u) * 9px) #111; paint-order: stroke fill; }
+#head { position: absolute; left: calc(var(--u)*56px); top: calc(var(--u)*120px); transform-origin: 0 0; }
+#title { color: #fff; font-weight: 900; font-size: calc(var(--u)*76px); letter-spacing: calc(var(--u)*1px); }
+#sub { color: #ffd23f; font-weight: 700; font-size: calc(var(--u)*40px); margin-top: calc(var(--u)*6px); -webkit-text-stroke-width: calc(var(--u)*7px); }
+#cap { position: absolute; left: 6%; right: 6%; top: 63%; text-align: center; color: #ffd23f; font-weight: 900; font-size: calc(var(--u)*70px); line-height: 1.15; }
+#de { position: absolute; left: 5%; right: 5%; bottom: 7%; text-align: center; color: #fff; font-weight: 700; font-size: calc(var(--u)*40px); line-height: 1.25; text-shadow: 0 0 calc(var(--u)*6px) #000, 0 0 calc(var(--u)*3px) #000; background: rgba(0,0,0,0.45); padding: calc(var(--u)*10px) calc(var(--u)*16px); border-radius: calc(var(--u)*12px); }
+#de:empty { display: none; }
+#big { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: #fff; font-weight: 900; }
+#big .b1 { font-size: calc(var(--u)*170px); -webkit-text-stroke: calc(var(--u)*14px) #111; paint-order: stroke fill; }
+#big .b2 { font-size: calc(var(--u)*90px); color: #ffd23f; -webkit-text-stroke: calc(var(--u)*11px) #111; paint-order: stroke fill; }
+#big .b3 { font-size: calc(var(--u)*96px); line-height: 1.2; color: #fff; }
+#fade, #lid { position: absolute; inset: 0; background: #000; pointer-events: none; }
+#lid { background: linear-gradient(#000 0%, #000 30%, transparent 50%, #000 70%, #000 100%); }
+#vig { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,0.35) 100%); }
+#play { position: fixed; inset: 0; display: none; align-items: center; justify-content: center; color: #fff; font: 900 28px Rubik, sans-serif; cursor: pointer; background: rgba(0,0,0,.6); }
+</style>
+</head>
+<body>
+<div id="frame">
+  <div id="stage"></div>
+  <div id="vig"></div>
+  <div id="lid" style="opacity:0"></div>
+  <div id="head"><div id="title" class="ink"></div><div id="sub" class="ink"></div></div>
+  <div id="cap" class="ink"></div>
+  <div id="de"></div>
+  <div id="fade"></div>
+  <div id="big"></div>
+</div>
+<div id="play">▶</div>
+<script>
+  const p = new URLSearchParams(location.search), W = +(p.get('w') || 720), H = +(p.get('h') || 1280);
+  const f = document.getElementById('frame'); f.style.width = W + 'px'; f.style.height = H + 'px';
+  document.documentElement.style.setProperty('--u', W / 1080);
+</script>
+<script type="importmap">{"imports":{"three":"../node_modules/three/build/three.module.js","three/addons/":"../node_modules/three/examples/jsm/"}}</script>
+<script type="module" src="src/film.js"></script>
+</body>
+</html>
